@@ -155,7 +155,7 @@ class _DetailScreenState extends State<DetailScreen> {
                         icon: Icon(isSignedIn && isFavorite
                             ? Icons.favorite
                             : Icons.favorite_border,
-                          color: isSignedIn && isFavorite ? Colors.red : null,),
+                        color: isSignedIn && isFavorite ? Colors.red : null,),
                       ),
                     ],
                   ),
@@ -204,7 +204,7 @@ class _DetailScreenState extends State<DetailScreen> {
                   Container(
                     height: 100,
                     child: Text('${widget.cafe.description}'
-                    ),
+                     ),
                   ),
                 ],
               ),

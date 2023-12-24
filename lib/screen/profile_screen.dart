@@ -155,12 +155,12 @@ class ProfileScreenState extends State<ProfileScreen> {
                 const SizedBox(height: 20),
                 isSignedIn
                     ? TextButton(
-                  onPressed: signOut,
-                  child: const Text('Sign Out'),
-                )
+                        onPressed: signOut,
+                        child: const Text('Sign Out'),
+                        )
                     : TextButton(
-                  onPressed: signIn,
-                  child: const Text('Sign In'),
+                        onPressed: signIn,
+                        child: const Text('Sign In'),
                 ),
               ],
             ),

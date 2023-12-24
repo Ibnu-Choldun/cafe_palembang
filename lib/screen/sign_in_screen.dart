@@ -118,24 +118,24 @@ class _SignInScreenState extends State<SignInScreen> {
                   //     onPressed: (){},
                   //     child: Text('Belum punya akun? Daftar di sini.')),
                   RichText(
-                    text: TextSpan(
-                      text: 'Belum punya akun?',
-                      style: TextStyle(fontSize: 16, color: Colors.black54),
-                      children: <TextSpan>[
-                        TextSpan(
-                          text: 'Daftar di sini.',
-                          style: TextStyle(
-                              color: Colors.blue,
-                              decoration: TextDecoration.underline,
-                              fontSize: 16
-                          ),
-                          recognizer: TapGestureRecognizer()
-                            ..onTap = () {
-                              Navigator.pushNamed(context, '/signup');
-                            },
-                        ),
-                      ],
-                    ),
+                      text: TextSpan(
+                          text: 'Belum punya akun?',
+                          style: TextStyle(fontSize: 16, color: Colors.black54),
+                          children: <TextSpan>[
+                            TextSpan(
+                              text: 'Daftar di sini.',
+                              style: TextStyle(
+                                  color: Colors.blue,
+                                  decoration: TextDecoration.underline,
+                                  fontSize: 16
+                              ),
+                              recognizer: TapGestureRecognizer()
+                                ..onTap = () {
+                                  Navigator.pushNamed(context, '/signup');
+                                },
+                            ),
+                          ],
+                      ),
                   )
                 ],
               ),
